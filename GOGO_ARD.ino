@@ -21,11 +21,6 @@ float pass_event = 0;
 //
 //=========================================
 
-//TR_Car_Mode(Mode)
-//Mode 1 = 초록
-//Mode 2 = 노랑
-//Mode 3 = 빨강
-//Mode 미지정 = 전체꺼짐
 SoftwareSerial Bluetooth(12,11);
 
 int TR_Car_Mode(int Mode_type) {
